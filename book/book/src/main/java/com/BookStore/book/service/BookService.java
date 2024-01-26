@@ -10,6 +10,5 @@ public interface BookService {
     Book createBook(Book book);
     Book getBookById(int bookId);
     List<Book> getAllBook();
-    Book updateBook(Book book);
     void deleteBook(int bookId);
 }
